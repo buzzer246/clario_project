@@ -31,11 +31,7 @@
       </div>
       <div class="container text-center border="solid 2px" border-color="#e5eecc">
         <div class="col-lg-3" offset="9">
-          <div class="row">
-            <p id="errormsg" class="text-danger m-2">
-         All (*) Marked Fileds Are Manditory..!
-            </p>
-    
+          <div class="row">  
             <div id="panel4">
               <label>Enter the Username</label>
               <em class="text-danger">*</em>
@@ -46,11 +42,37 @@
             <input type="password" class="form-control" class="input" id="pass" value="password" placeholder="Enter Your Password" required />
           </div>
         </div>
+        <button class="text-white btn btn-success" class="button" id="myBtn" onclick="save()" colspan="3">Login</button>
+    
         </div>
-      </div>
+        <div class="container m-4 text-center border="solid 2px" border-color="#e5eecc">
+          <div class="col-lg-3" offset="9">
+            <div class="row">      
+              <p id="errormsg" class="text-danger m-2">
+                All (*) Marked Fileds Are Manditory..!
+                   </p>
+              <div id="panel5">
+                <label>Enter the Username</label>
+                <em class="text-danger">*</em>
+                <input type="text" class="form-control" class ="input" id="fname" value="username" placeholder="Enter the userName" required />
+              
+              <label>Enter the Password</label>
+              <em class="text-danger">*</em>
+              <input type="password" class="form-control" class="input" id="pass" value="password" placeholder="Enter Your Password" required />
+              <label>Enter Mobile Number</label>
+              <em class="text-danger">*</em>
+              <input type="number" class="form-control" class="input" id="mobile" value="mobile" placeholder="Enter Mobile Number" required />
+              <label>Enter Your Address</label>
+              <em class="text-danger">*</em>
+              <input type="text" class="form-control" class="input" id="address" value="address" placeholder="Enter Your Address" required />
+            </div>
+            
+          </div>
+          <button class="text-white btn btn-warning m-3"  id="panel5" onclick="register()" colspan="3">Register!</button>
+          <button class="text-white btn btn-danger"  id="myBtn" onclick="clear()"colspan="3">Cancel</button>
+        </div>
     </div>
-    <button class="text-white btn btn-success" class="button" id="myBtn" onclick="save()" colspan="3">Login/Register</button>
-    <button class="text-white btn btn-danger" id="myBtn" onclick="clear()"colspan="3">Cancel</button>
+        
   </div>
   <div class="container-fluid m-4">
     <div class="row">
