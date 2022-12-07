@@ -88,12 +88,12 @@ var save = () => {
 
         
         if(formstatus==false) {
-            document.getElementById("errormsg").innerText = "Invalid input";
+            document.getElementById("errormsg").innerText = "User Not in Database";
 
         }
         else{
 
-            document.getElementById("errormsg").innerText = "Input is valid, please wait..!"
+            document.getElementById("errormsg").innerText = "User Success, please wait..!"
 
         }
 
