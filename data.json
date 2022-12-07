@@ -1,0 +1,98 @@
+{
+  "userlist": [
+    {
+      "name": "Avinash Reddy K",
+      "mobile": "10000000",
+      "city": "Bangalore",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Ganesh Kumar",
+      "mobile": 888888888,
+      "city": "Mumbai"
+    },
+    {
+      "id": 3,
+      "name": "Suresh Kumar",
+      "mobile": 888888888,
+      "city": "Chennai"
+    },
+    {
+      "name": "Raj Royal",
+      "mobile": 9999999999,
+      "city": "Pune",
+      "id": 7
+    },
+    {
+      "name": "Kelvin",
+      "mobile": "889888988989",
+      "city": "Kolkata",
+      "id": 9
+    },
+    {
+      "name": "Kohil Raj",
+      "mobile": "57878545454",
+      "city": "Mumbai",
+      "id": 10
+    },
+    {
+      "name": "Jai Prakash Royal",
+      "mobile": "9999999999",
+      "city": "Tanjavur",
+      "id": 11
+    },
+    {
+      "name": "AVINASH REDDY",
+      "mobile": "9703104087",
+      "city": "Vizag Airport",
+      "id": 13
+    },
+    {
+      "name": "RamPrasasd",
+      "mobile": "889788788578",
+      "city": "Hyderabad",
+      "id": 14
+    }
+  ],
+  "productlist": [
+    {
+      "id": 1,
+      "pname": "HTML",
+      "pprice": "500",
+      "pqty": "10"
+    },
+    {
+      "id": 2,
+      "pname": "PHP 5",
+      "pprice": "200",
+      "pqty": "20"
+    },
+    {
+      "pname": "Apple",
+      "pprice": "100",
+      "pqty": "50",
+      "id": 3
+    },
+    {
+      "pname": "Oranges",
+      "pprice": "150",
+      "pqty": "100",
+      "id": 4
+    },
+    {
+      "pname": "Grapes",
+      "pprice": "80",
+      "pqty": "200kgs",
+      "id": 5
+    },
+    {
+      "pname": "Strawberry - pink",
+      "pprice": "100",
+      "pqty": "100 grams",
+      "id": 6
+    }
+  ],
+  "booklist": [],
+  "clientlist": []
+}
