@@ -1,75 +1,107 @@
-#panel,#panel2,#panel3, #flip,#flip2,#flip3,#flip4 {
-    padding: 5px;
-    text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
-  }
-  
-  #panel2,#panel3, #flip,#flip2,#flip3,#flip4{
-    padding-top: 20px;
-    text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
-  }
-  
-  #panel, #panel2,#panel3,#panel4{
-    padding: 50px;
-    display: none;
-  }
-  
-  h3{
-
-    color:#742424 !important;
-}
-  .topnav,li{
-  
-  width:100%;
-  cursor:pointer;
-  display:inline !important;
-  text-decoration:none;
-  list-style-type:none;
-  }
-  .end{
-
-    float:right;
-    text-decoration: none;
-    text-shadow: #c3c3c3 solid 2px;
-
-  }
-  body{
-  
-  
-  margin:0px;
-  }
-
-.img2{
-
-  width:100%;
-  min-height:50% ;
-  background-color:#ced0c7d8;
+#panel,
+#panel2,
+#panel3,
+#flip,
+#flip2,
+#flip3,
+#flip4 {
+  padding: 8px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
 }
 
-.img{
-
-  width:100%;
-  min-height:50% ;
-  background-color:#e5eecc;
+#panel2,
+#panel3,
+#flip,
+#flip2,
+#flip3 {
+  padding-top: 20px;
+  text-align: center;
+  border: solid 1px #c3c3c3;
 }
-  p{
-  
-  margin-top:40px;
-  color:000ffcb;
-  
+
+#flip4{
+
+  padding-right: 40px;
+  text-align: center !important;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel,
+#panel2,
+#panel3,
+#panel4 {
+  padding: 50px;
+  display: none;
+}
+
+h3 {
+
+  color: #742424 !important;
+}
+
+.topnav,
+li {
+
+  width: 100%;
+  cursor: pointer;
+  text-align: center !important;
+  display: inline !important;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.end {
+
+  float: right;
+  text-decoration: none;
+  text-shadow: #c3c3c3 solid 2px;
+
+}
+
+body {
+
+
+  margin: 0px;
+  height: 2000px;
+}
+
+.img2 {
+
+  width: 100%;
+  min-height: 50%;
+  background-color: #ced0c7d8;
+}
+
+.img {
+
+  width: 100%;
+  min-height: 50%;
+  background-color: #e5eecc;
+}
+
+p {
+
+  margin-top: 40px;
+  color: 000ffcb;
+
+}
+
+
+@media screen and (min-width:480px) and (max-width:756px) {
+
+  body {
+    background-color: #839a2ac6;
   }
 
+}
 
-  @media screen and (min-width:480px) and (max-width:756px) {
+em {
+  color: red;
+}
 
-    body {
-        background-color: #839a2ac6;
-      }
-
-  }
-
-  em{ color:red; }
-#errormsg{color: red;}
+#errormsg {
+  color: red;
+}

@@ -47,7 +47,7 @@ var loading = () => {
 
 var register = () => {
 
-    
+
 
     //alert("User Registered Sucessfully..!");
 
@@ -104,11 +104,17 @@ var register = () => {
         document.getElementById("errormsg").innerText = "User Sucessfully Registered";
 
     }
-   
+
 
 }
 var clear = () => {
 
+    window.location.href = "http://127.0.0.1:5500/clario.html";
+}
+
+let logout = () => {
+
+    alert("Hey! you have logged out");
     window.location.href = "http://127.0.0.1:5500/clario.html";
 }
 
@@ -122,14 +128,14 @@ var save = () => {
 
             if (userArray.length > 0) {
 
-                if (username == name) {
+                if (username === name) {
 
                     alert("Please SignUp ..!");
 
                 } else {
 
                     alert("User is Logged-in Successfully");
-                    window.location.href = "http://localhost:1234/userlist";
+                    window.location.href = "http://127.0.0.1:5500/logout.html";
                 }
 
             }
